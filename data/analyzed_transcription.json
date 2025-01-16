@@ -1,0 +1,33 @@
+{
+    "Osiągnięcia": [
+        "Praca nad projektem „Modernizacja systemu CRM” zakończona przed terminem.",
+        "Wysoka jakość raportu wdrożeniowego.",
+        "Zaangażowanie w onboarding nowego pracownika w zespole marketingu przyniosło pozytywne opinie."
+    ],
+    "Obszary do poprawy": [
+        "Brak szczegółowych danych w raportach, co utrudnia analizę.",
+        "Ostatni raport sprzedażowy wymagał kilku poprawek.",
+        "Trudność w przedstawianiu pomysłów podczas spotkań zespołowych."
+    ],
+    "Cele na przyszłość": [
+        "Wprowadzenie bardziej szczegółowych danych w raportach.",
+        "Zgłaszanie przynajmniej jednego pomysłu lub komentarza podczas każdego zebrania."
+    ],
+    "Cele SMART": [
+        {
+            "Cel": "Wprowadzenie szczegółowych danych w co najmniej 90% raportów.",
+            "Termin": "Do końca przyszłego kwartału."
+        },
+        {
+            "Cel": "Zgłaszanie przynajmniej jednego pomysłu lub komentarza podczas każdego zebrania.",
+            "Termin": "W ciągu najbliższych trzech miesięcy."
+        }
+    ],
+    "Propozycje szkoleń": [
+        "Szkolenie z analizy danych w Power BI.",
+        "Warsztaty z komunikacji interpersonalnej."
+    ],
+    "Uwagi dotyczące współpracy": [
+        "Propozycja krótkich, cotygodniowych spotkań z zespołem sprzedaży."
+    ]
+}
