@@ -112,7 +112,44 @@ class OpenAIClient:
         except Exception as e:
             print(f"Error generating report: {e}")
             return None
-        
+    
+
+    def user_navigation(self, wejscie_uzytkownika):
+        prompt = f"""
+            Jesteś asystentem HR i masz za zadanie przeanalizować wymaganie, które zgłosił pracownik HR.
+            Masz odpowiedzieć samą liczbą.
+            Jeżeli pracownik będzie chciał:
+            1 - apytać o następne spotkanie
+            2 - nagrać rozmowę
+            3 - raport z nagrania
+            4 - raport z transkrypcji
+            4 - kursy na bazie raportu
+            6 - efektywność pracy pracownika
+            0 - wyjść lub opuścić program
+            Jeżeli czegoś nie ma w rozmowie to wpisz '-1'
+
+            Pamiętaj, ma to być pojedyncza cyfra
+
+            Transkrypcja:
+            {wejscie_uzytkownika}
+            Odpowiedź ma być tylko jedną liczbą
+            """
+        try:
+            response = self.client.chat.completions.create(
+                model="gpt-4o-mini",
+                temperature=0,
+                messages=[
+                {"role": "system", "content": "Jesteś asystentem HR."},
+                {"role": "user", "content": prompt}
+            ])
+            przewidywana_akcja = response.choices[0].message.content.strip()
+            wybor = int(przewidywana_akcja)
+        except Exception as e:
+            print(f"Nie udało się zinterpretować Twojego wejścia: {e}")
+            wybor = -1
+
+        return wybor
+
     def analyze_and_segment_transcription(self, transcription_text):
         """
         Analyzes and segments transcription text into predefined sections.

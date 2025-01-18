@@ -1,26 +1,36 @@
 {
     "Osiągnięcia": [
-        "Praca nad projektem „Modernizacja systemu CRM” zakończona przed terminem.",
-        "Wysoka jakość raportu wdrożeniowego.",
-        "Zaangażowanie w onboarding nowego pracownika w zespole marketingu przyniosło pozytywne opinie."
+        "Praca nad projektem 'Modernizacja systemu CRM' zakończona przed terminem.",
+        "Jakość raportu wdrożeniowego na najwyższym poziomie.",
+        "Zaangażowanie w onboarding nowego pracownika przyniosło pozytywne opinie."
     ],
     "Obszary do poprawy": [
         "Brak szczegółowych danych w raportach, co utrudnia analizę.",
-        "Ostatni raport sprzedażowy wymagał kilku poprawek.",
+        "Ostatni raport sprzedażowy wymagał poprawek, co opóźniło proces decyzyjny.",
         "Trudność w przedstawianiu pomysłów podczas spotkań zespołowych."
     ],
     "Cele na przyszłość": [
-        "Wprowadzenie bardziej szczegółowych danych w raportach.",
-        "Zgłaszanie przynajmniej jednego pomysłu lub komentarza podczas każdego zebrania."
+        "Wprowadzać bardziej szczegółowe dane w raportach oraz konsultować je z zespołem.",
+        "Zgłaszać przynajmniej jeden pomysł lub komentarz podczas każdego zebrania."
     ],
     "Cele SMART": [
         {
-            "Cel": "Wprowadzenie szczegółowych danych w co najmniej 90% raportów.",
-            "Termin": "Do końca przyszłego kwartału."
+            "Cel": "Wprowadzenie szczegółowych danych w co najmniej 90% raportów",
+            "Termin": "do końca przyszłego kwartału",
+            "Specyficzne": "Wprowadzać szczegółowe dane w raportach",
+            "Mierzalne": "90% raportów",
+            "Osiągalne": "Tak",
+            "Realistyczne": "Tak",
+            "Terminowe": "Tak"
         },
         {
-            "Cel": "Zgłaszanie przynajmniej jednego pomysłu lub komentarza podczas każdego zebrania.",
-            "Termin": "W ciągu najbliższych trzech miesięcy."
+            "Cel": "Zgłaszanie przynajmniej jednego pomysłu lub komentarza podczas każdego zebrania",
+            "Termin": "w ciągu najbliższych trzech miesięcy",
+            "Specyficzne": "Zgłaszać pomysły lub komentarze",
+            "Mierzalne": "przynajmniej jeden na zebranie",
+            "Osiągalne": "Tak",
+            "Realistyczne": "Tak",
+            "Terminowe": "Tak"
         }
     ],
     "Propozycje szkoleń": [

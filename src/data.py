@@ -24,3 +24,13 @@ course_list = [
     "Excel for Business Analytics - Intermediate: Wykorzystanie Excela w analizach biznesowych, prognozowanie, analiza scenariuszy, solver. Cena: 1500 PLN. Stopień zaawansowania: Średniozaawansowany.",
     "Interactive Dashboards with Power BI - Beginner: Budowanie interaktywnych dashboardów w Power BI, podstawy języka DAX, praca z danymi. Cena: 1700 PLN. Stopień zaawansowania: Początkujący."
 ]
+
+opcje_menu = {
+    "kiedy jest następne spotkanie": 1,
+    "nagraj rozmowę": 2,
+    "wygeneruj raport na podstawie nagrania": 3,
+    "wygeneruj raport na podstawie transkrypcji": 4,
+    "podaj dostępne kursy na bazie raportu": 5,
+    "pokaż efektywność pracy pracownika": 6,
+    "wyjście": 0
+}
